@@ -1,0 +1,169 @@
+/* global stlye begin */
+
+/* #524dc7 */
+
+/* #a979bd */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-color: #fff;
+}
+
+main {
+  width: 100%;
+  margin: 10px auto;
+}
+/* global styles end */
+
+/* header section begins */
+
+#header {
+  background-color: #fff;
+  width: 100%;
+  display: grid;
+  height: 15%;
+  top: 0;
+  right: 0;
+  grid-template-columns: 100px auto;
+  align-items: center;
+  margin-bottom: 30px;
+  position: sticky;
+  /* border-bottom: 1px solid #5e5b5b; */
+  /* border: 1px solid red; */
+}
+
+#header-image {
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+}
+
+#navbar {
+  justify-self: end;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+#navbar ul li:nth-child(3) {
+  margin-right: 50px;
+}
+
+#navbar ul li a {
+  color: #524dc7;
+}
+/* header section ends */
+
+/* main container */
+
+#container-main {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 17%;
+  justify-content: center;
+  margin: 10px auto;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#container-left {
+  display: flex;
+  justify-content: center;
+}
+
+#product-img {
+  width: 50%;
+}
+
+#container-right {
+  padding: 15px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-header {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #524dc7;
+  text-align: left;
+}
+
+#email {
+  width: 100%;
+  outline: none;
+  background: none;
+  height: 45px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+#submit {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  background-color: #524dc7;
+  position: relative;
+  color: #fff;
+  transition: all 0.3s;
+  align-self: flex-start;
+}
+
+#submit:hover {
+  background-color: #a979bd;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#container-video {
+  background-color: rgb(238, 237, 237);
+  display: flex;
+  flex-direction: column;
+  /* margin: 0px auto; */
+}
+
+#video-header {
+  text-align: center;
+  text-transform: uppercase;
+  color: #524dc7;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+video {
+  width: 70%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+/* main container */

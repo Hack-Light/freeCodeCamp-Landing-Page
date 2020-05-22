@@ -4,35 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header id="header">
-      <img src="logo-2.png" alt="" id="header-image" />
-      <nav id="nav-bar">
-        <ul>
-          <li id="nav-link"><a href="index.html">Home</a></li>
-          <li id="nav-link"><a href="index.html">Catalouge</a></li>
-          <li id="nav-link"><a href="index.html">Cart</a></li>
-        </ul>
-      </nav>
-    </header>
+    <main>
+      <header id="header">
+        <img src="./assets/logo-2.png" alt="" id="header-image" />
+        <nav id="navbar">
+          <ul>
+            <li id="nav-link"><a href="index.html">Home</a></li>
+            <li id="nav-link"><a href="index.html">Catalouge</a></li>
+            <li id="nav-link"><a href="index.html">Cart</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main id="container">
-      <div id="container-left">
-        <img src="product.png" alt="huwaei phone" />
-      </div>
-      <div id="container-right">
-        <h3 id="form-header">
-          SignUp to recieve our newest products in your inbox
-        </h3>
-        <form action="" id="form">
-          <input type="email" required placeholder="john@doe.com" id="email" />
-          <input type="submit" id="submit" />
-        </form>
+      <div id="container-main">
+        <div id="container-right">
+          <h3 id="form-header">
+            SignUp to recieve our newest products in your inbox
+          </h3>
+          <form action="" id="form">
+            <input
+              type="email"
+              required
+              placeholder="john@doe.com"
+              id="email"
+            />
+            <input type="submit" id="submit" />
+          </form>
+        </div>
+        <div id="container-left">
+          <img id="product-img" src="./assets/product.png" alt="huwaei phone" />
+        </div>
       </div>
       <div id="container-video">
         <h2 id="video-header">View our Product</h2>
-        <video src="#"></video>
+        <video src="./assets/video.mp4" controls></video>
       </div>
     </main>
   </body>
